@@ -14,14 +14,14 @@ func TestMul(t *testing.T) {
     }
 }
 
-func TestMUlThree(t *testing.T) {
-    tests := []struct{a, b, c, expected int} {
-        {2, 1, 1, 2},
+func TestMUlFour(t *testing.T) {
+    tests := []struct{a, b, c, d, expected int} {
+        {2, 1, 1, 2, 4},
     }
     for _, test := range tests {
-        res := MUlThree(test.a, test.b, test.c)
+        res := MUlFour(test.a, test.b, test.c, test.d)
         if res != test.expected {
-            t.Errorf("MUlThree(%d, %d, %d) = %d; want %d", test.a, test.b, test.c, res, test.expected)
+            t.Errorf("MUlThree(%d, %d, %d, %d) = %d; want %d", test.a, test.b, test.c, test.d, res, test.expected)
         }
     }
 }
