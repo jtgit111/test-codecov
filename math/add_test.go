@@ -20,17 +20,17 @@ func TestAdd(t *testing.T) {
     }
 }
 
-// func TestAddThree(t *testing.T) {
-//     tests := []struct {
-//         a, b, c, expected int
-//     }{
-//         {1, 2, 3, 6},
-//     }
+func TestAddThree(t *testing.T) {
+    tests := []struct {
+        a, b, c, expected int
+    }{
+        {1, 2, 3, 6},
+    }
 
-//     for _, test := range tests {
-//         result := AddThree(test.a, test.b, test.c)
-//         if result != test.expected {
-//             t.Errorf("Add(%d, %d, %d) = %d; want %d", test.a, test.b, test.c, result, test.expected)
-//         }
-//     }
-// }
+    for _, test := range tests {
+        result := AddThree(test.a, test.b, test.c)
+        if result != test.expected {
+            t.Errorf("Add(%d, %d, %d) = %d; want %d", test.a, test.b, test.c, result, test.expected)
+        }
+    }
+}
