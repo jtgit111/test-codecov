@@ -28,7 +28,7 @@ func TestAddThree(t *testing.T) {
     }
 
     for _, test := range tests {
-        result := Add(test.a, test.b)
+        result := AddThree(test.a, test.b, test.c)
         if result != test.expected {
             t.Errorf("Add(%d, %d, %d) = %d; want %d", test.a, test.b, test.c, result, test.expected)
         }
