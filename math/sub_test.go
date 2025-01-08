@@ -27,3 +27,16 @@ func TestSubThree(t *testing.T) {
         }
     }
 }
+
+func TestSubFour(t *testing.T) {
+    tests := []struct{a, b, c, d, expected int} {
+        {4, 1, 1, 2, 0},
+    }
+
+    for _, test := range tests {
+        res := SubFour(test.a, test.b, test.c, test.d)
+        if res != test.expected {
+            t.Errorf("Sub(%d, %d, %d, %d) = %d; want %d", test.a, test.b, test.c, test.d, res, test.expected)
+        }
+    }
+}
