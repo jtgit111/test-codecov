@@ -5,11 +5,11 @@ import (
 )
 
 func TestSum(t *testing.T) {
-	nums := []uint{1, 2, 3}
+	nums := []uint{1, 2, 3, 4}
 	res := Sum(nums)
-	if res != 6 {
+	if res != 10 {
 		t.Error("error")
-	}
+	} 
 }
 
 func TestStats(t *testing.T) {
