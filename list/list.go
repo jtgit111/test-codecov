@@ -28,7 +28,7 @@ func Stats(arr []int) (max int, min int, avg float64, err error) {
 	return max, min, avg, nil
 }
 
-func Sum(nums []uint) (res uint) {
+func Sum111(nums []uint) (res uint) {
 	for _, num := range nums {
 		res += num
 	}

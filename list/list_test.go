@@ -6,7 +6,7 @@ import (
 
 func TestSum(t *testing.T) {
 	nums := []uint{1, 2, 3, 4}
-	res := Sum(nums)
+	res := Sum111(nums)
 	if res != 10 {
 		t.Error("error")
 	} 
