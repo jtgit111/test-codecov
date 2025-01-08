@@ -1,0 +1,10 @@
+mode: set
+/Users/jiangtao/Desktop/test_codecov/test-codecov/list/list.go:8.66,9.19 1 1
+/Users/jiangtao/Desktop/test_codecov/test-codecov/list/list.go:9.19,11.3 1 0
+/Users/jiangtao/Desktop/test_codecov/test-codecov/list/list.go:13.2,17.28 4 1
+/Users/jiangtao/Desktop/test_codecov/test-codecov/list/list.go:17.28,18.18 1 1
+/Users/jiangtao/Desktop/test_codecov/test-codecov/list/list.go:18.18,20.4 1 1
+/Users/jiangtao/Desktop/test_codecov/test-codecov/list/list.go:21.3,21.18 1 1
+/Users/jiangtao/Desktop/test_codecov/test-codecov/list/list.go:21.18,23.4 1 1
+/Users/jiangtao/Desktop/test_codecov/test-codecov/list/list.go:24.3,24.15 1 1
+/Users/jiangtao/Desktop/test_codecov/test-codecov/list/list.go:27.2,28.27 2 1

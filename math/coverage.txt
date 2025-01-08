@@ -1,0 +1,5 @@
+mode: set
+/Users/jiangtao/Desktop/test_codecov/test-codecov/math/add.go:3.28,5.2 1 1
+/Users/jiangtao/Desktop/test_codecov/test-codecov/math/div.go:3.24,5.2 1 1
+/Users/jiangtao/Desktop/test_codecov/test-codecov/math/mul.go:3.24,5.2 1 1
+/Users/jiangtao/Desktop/test_codecov/test-codecov/math/sub.go:3.24,5.2 1 1
