@@ -1,0 +1,2 @@
+mode: set
+/Users/jiangtao/Desktop/test_codecov/test-codecov/math.go:3.28,5.2 1 1
