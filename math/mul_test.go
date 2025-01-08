@@ -13,3 +13,15 @@ func TestMul(t *testing.T) {
         }
     }
 }
+
+func TestMUlThree(t *testing.T) {
+    tests := []struct{a, b, c, expected int} {
+        {2, 1, 1, 2},
+    }
+    for _, test := range tests {
+        res := MUlThree(test.a, test.b, test.c)
+        if res != test.expected {
+            t.Errorf("MUlThree(%d, %d, %d) = %d; want %d", test.a, test.b, test.c, res, test.expected)
+        }
+    }
+}
