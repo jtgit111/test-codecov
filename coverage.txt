@@ -1,2 +1,3 @@
 mode: set
 /Users/jiangtao/Desktop/test_codecov/test-codecov/math.go:3.28,5.2 1 1
+/Users/jiangtao/Desktop/test_codecov/test-codecov/math.go:7.24,9.2 1 0
