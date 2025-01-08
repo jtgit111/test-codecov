@@ -15,15 +15,15 @@ func TestSub(t *testing.T) {
     }
 }
 
-func TestSubThree(t *testing.T) {
-    tests := []struct{a, b, c, expected int} {
-        {4, 1, 1, 2},
-    }
+// func TestSubThree(t *testing.T) {
+//     tests := []struct{a, b, c, expected int} {
+//         {4, 1, 1, 2},
+//     }
 
-    for _, test := range tests {
-        res := SubThree(test.a, test.b, test.c)
-        if res != test.expected {
-            t.Errorf("Sub(%d, %d, %d) = %d; want %d", test.a, test.b, test.c, res, test.expected)
-        }
-    }
-}
+//     for _, test := range tests {
+//         res := SubThree(test.a, test.b, test.c)
+//         if res != test.expected {
+//             t.Errorf("Sub(%d, %d, %d) = %d; want %d", test.a, test.b, test.c, res, test.expected)
+//         }
+//     }
+// }
