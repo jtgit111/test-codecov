@@ -4,6 +4,14 @@ import (
 	"testing"
 )
 
+func TestSum(t *testing.T) {
+	nums := []uint{1, 2, 3, 4}
+	res := Sum1(nums)
+	if res != 10 {
+		t.Error("error")
+	} 
+}
+
 func TestStats(t *testing.T) {
 	tests := []struct {
 		input    []int

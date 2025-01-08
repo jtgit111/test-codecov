@@ -27,3 +27,10 @@ func Stats(arr []int) (max int, min int, avg float64, err error) {
 	avg = float64(sum) / float64(len(arr))
 	return max, min, avg, nil
 }
+
+func Sum1(nums []uint) (res uint) {
+	for _, num := range nums {
+		res += num
+	}
+	return
+}
