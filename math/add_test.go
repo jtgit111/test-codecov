@@ -19,3 +19,18 @@ func TestAdd(t *testing.T) {
         }
     }
 }
+
+func TestAddThree(t *testing.T) {
+    tests := []struct {
+        a, b, c, expected int
+    }{
+        {1, 2, 3, 6},
+    }
+
+    for _, test := range tests {
+        result := Add(test.a, test.b)
+        if result != test.expected {
+            t.Errorf("Add(%d, %d, %d) = %d; want %d", test.a, test.b, test.c, result, test.expected)
+        }
+    }
+}
