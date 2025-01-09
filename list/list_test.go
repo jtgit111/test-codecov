@@ -51,3 +51,24 @@ func TestStats(t *testing.T) {
 		}
 	}
 }
+
+func TestFindMaxFrequencyElement(t *testing.T) {
+	tests := []struct {
+		arr           []int
+		expectedElem  int
+		expectedFreq  int
+	}{
+		{[]int{1, 3, 2, 3, 4, 3, 2, 1}, 3, 3},
+		{[]int{1, 1, 2, 2, 3, 3, 4}, 1, 2}, // 1 和 2 的频率相同，返回第一个
+		{[]int{5, 5, 5, 1, 1, 2}, 5, 3},
+		{[]int{}, 0, 0}, // 空数组
+		{[]int{7}, 7, 1}, // 只有一个元素
+	}
+
+	for _, test := range tests {
+		elem, freq := FindMaxFrequencyElement(test.arr)
+		if elem != test.expectedElem || freq != test.expectedFreq {
+			t.Errorf("对于输入 %v，期望 (%d, %d)，但得到 (%d, %d)", test.arr, test.expectedElem, test.expectedFreq, elem, freq)
+		}
+	}
+}
