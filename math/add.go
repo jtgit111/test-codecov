@@ -11,3 +11,7 @@ func AddThree(a, b, c int) int {
 func AddFour(a, b, c, d int) int {
 	return a + b + c + d
 }
+
+func AddFive1(a, b, c, d, e int) int {
+	return a + b + c + d + e
+}
