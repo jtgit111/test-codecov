@@ -12,6 +12,6 @@ func AddFour(a, b, c, d int) int {
 	return a + b + c + d
 }
 
-func AddFive(a, b, c, d, e int) int {
+func AddFive1(a, b, c, d, e int) int {
 	return a + b + c + d + e
 }

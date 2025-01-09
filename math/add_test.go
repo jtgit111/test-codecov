@@ -58,7 +58,7 @@ func TestAddFive(t *testing.T) {
     }
 
     for _, test := range tests {
-        result := AddFive(test.a, test.b, test.c, test.d, test.e)
+        result := AddFive1(test.a, test.b, test.c, test.d, test.e)
         if result != test.expected {
             t.Errorf("Add(%d, %d, %d, %d, %d) = %d; want %d", test.a, test.b, test.c, test.d, test.e, result, test.expected)
         }
