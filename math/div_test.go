@@ -31,7 +31,7 @@ func TestDivFour(t *testing.T) {
         {8, 1, 2, 2, 2},
     }
     for _, test := range tests {
-        res := DivFour1(test.a, test.b, test.c, test.d)
+        res := DivFour11(test.a, test.b, test.c, test.d)
         if res != test.expected {
             t.Errorf("Div(%d, %d, %d, %d) = %d; want %d", test.a, test.b, test.c, test.d, res, test.expected)
         }
