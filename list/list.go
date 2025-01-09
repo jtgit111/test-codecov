@@ -34,3 +34,24 @@ func Sum1(nums []uint) (res uint) {
 	}
 	return
 }
+
+func FindMaxFrequencyElement(arr []int) (int, int) {
+	if len(arr) == 0 {
+		return 0, 0 // 返回0和0表示数组为空
+	}
+
+	frequencyMap := make(map[int]int)
+	maxElement := arr[0]
+	maxFrequency := 1
+
+	// 统计每个元素的频率
+	for _, num := range arr {
+		frequencyMap[num]++
+		if frequencyMap[num] > maxFrequency {
+			maxFrequency = frequencyMap[num]
+			maxElement = num
+		}
+	}
+
+	return maxElement, maxFrequency
+}
