@@ -8,6 +8,6 @@ func DivThree(a, b, c int) int {
     return a / b / c
 }
 
-func DivFour(a, b, c, d int) int {
+func DivFour11(a, b, c, d int) int {
     return a / b / c / d
 }
